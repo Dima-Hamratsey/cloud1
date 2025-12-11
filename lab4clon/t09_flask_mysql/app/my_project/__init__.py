@@ -2,8 +2,8 @@ import os
 import yaml
 from flask import Flask
 from flasgger import Swagger
-from t09_flask_mysql.app.my_project.db import db
-from t09_flask_mysql.app.my_project.route import register_routes
+from .db import db
+from .route import register_routes
 
 
 def load_config():

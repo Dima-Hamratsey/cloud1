@@ -1,6 +1,6 @@
 # t09_flask_mysql/app/my_project/dao/movies_dao.py
-from t09_flask_mysql.app.my_project.domain.movies import Movie
-from t09_flask_mysql.app.my_project.db import db
+from ..domain.movies import Movie
+from ..db import db
 from sqlalchemy.sql import text
 from sqlalchemy.exc import SQLAlchemyError
 class MoviesDAO:

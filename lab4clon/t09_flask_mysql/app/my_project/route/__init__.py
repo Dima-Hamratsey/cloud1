@@ -1,6 +1,6 @@
-from t09_flask_mysql.app.my_project.controller.directors_controller import directors_bp
-from t09_flask_mysql.app.my_project.controller.actors_controller import actors_bp
-from t09_flask_mysql.app.my_project.controller.movies_controller import movies_bp, movie_actor_bpp, movies_avg_duration, movies_random
+from ..controller.directors_controller import directors_bp
+from ..controller.actors_controller import actors_bp
+from ..controller.movies_controller import movies_bp, movie_actor_bpp, movies_avg_duration, movies_random
 
 
 def register_routes(app):

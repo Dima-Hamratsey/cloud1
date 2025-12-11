@@ -1,6 +1,6 @@
 from flask import Flask
 from swagger import init_swagger
-from t09_flask_mysql.app.my_project.route import register_routes
+from my_project.route import register_routes
 
 
 def create_app():

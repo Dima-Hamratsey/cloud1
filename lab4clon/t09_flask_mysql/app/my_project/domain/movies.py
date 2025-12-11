@@ -1,6 +1,6 @@
 # t09_flask_mysql/app/my_project/domain/movies.py
 from t09_flask_mysql.app.my_project.db import db
-from t09_flask_mysql.app.my_project.domain.genre import Genre
+from ..domain.genre import Genre
 
 class Movie(db.Model):
     __tablename__ = 'movies'
