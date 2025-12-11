@@ -1,5 +1,5 @@
 # t09_flask_mysql/app/my_project/domain/movies.py
-from t09_flask_mysql.app.my_project.db import db
+from ..db import db
 from ..domain.genre import Genre
 
 class Movie(db.Model):
