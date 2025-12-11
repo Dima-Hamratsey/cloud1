@@ -1,6 +1,6 @@
 # t09_flask_mysql/app/my_project/dao/directors_dao.py
-from t09_flask_mysql.app.my_project.domain.directors import Director
-from t09_flask_mysql.app.my_project.db import db
+from ..domain.directors import Director
+from ..db import db
 
 class DirectorsDAO:
     @staticmethod

@@ -1,5 +1,5 @@
-from t09_flask_mysql.app.my_project.dao.directors_dao import DirectorsDAO
-from t09_flask_mysql.app.my_project.db import db
+from ..dao.directors_dao import DirectorsDAO
+from ..db import db
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.sql import text
 

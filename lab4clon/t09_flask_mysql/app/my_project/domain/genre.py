@@ -1,5 +1,5 @@
 # t09_flask_mysql/app/my_project/domain/genre.py
-from t09_flask_mysql.app.my_project.db import db
+from ..db import db
 
 
 class Genre(db.Model):

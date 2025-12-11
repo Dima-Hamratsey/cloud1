@@ -1,6 +1,6 @@
 # actors_service.py
-from t09_flask_mysql.app.my_project.db import db  # <- це обов'язково
-from t09_flask_mysql.app.my_project.dao.actors_dao import ActorsDAO
+from ..db import db  # <- це обов'язково
+from ..dao.actors_dao import ActorsDAO
 
 class ActorsService:
     @staticmethod

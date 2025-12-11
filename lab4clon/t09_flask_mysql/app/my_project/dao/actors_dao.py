@@ -1,6 +1,6 @@
 # t09_flask_mysql/app/my_project/dao/actors_dao.py
-from t09_flask_mysql.app.my_project.domain.actors import Actor
-from t09_flask_mysql.app.my_project.db import db
+from ..domain.actors import Actor
+from ..db import db
 
 class ActorsDAO:
     @staticmethod

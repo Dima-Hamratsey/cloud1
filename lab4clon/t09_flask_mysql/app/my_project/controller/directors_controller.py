@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from t09_flask_mysql.app.my_project.service.directors_service import DirectorsService
+from ..service.directors_service import DirectorsService
 
 directors_bp = Blueprint("directors", __name__)
 service = DirectorsService()

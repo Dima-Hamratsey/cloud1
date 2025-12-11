@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from t09_flask_mysql.app.my_project.service.movies_service import MoviesService
+from ..service.movies_service import MoviesService
 
 movies_bp = Blueprint("movies", __name__)
 movie_actor_bpp = Blueprint("movie_actor", __name__)
