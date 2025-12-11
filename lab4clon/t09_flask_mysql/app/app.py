@@ -2,8 +2,9 @@ from flask import Flask
 import os
 import yaml
 from swagger import init_swagger
-from .my_project.route import register_routes  # Переконайся, що route.py є в папці my_project
-from .my_project.db import db
+from my_project.route import register_routes
+from my_project.db import db
+
 #34435345353
 #4444444
 #44554
