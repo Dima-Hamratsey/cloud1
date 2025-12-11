@@ -5,6 +5,7 @@ from t09_flask_mysql.app.swagger import init_swagger
 from t09_flask_mysql.app.my_project.db import db
 from t09_flask_mysql.app.my_project.route import register_routes  # Переконайся, що route.py є в папці my_project
 #34435345353
+#4444444
 
 def load_config():
     flask_env = os.getenv('FLASK_ENV', 'development').lower()
